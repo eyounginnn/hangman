@@ -10,7 +10,8 @@ export function Keyboard() {
         gap: ".5rem"
     }}> 
         {KEYS.map(key => {
-            return ( <button className={`${styles.btn}`} key={key}>{key}</button>
+            return ( <button className={`${styles.btn}`} 
+            key={key}>{key}</button>
 )})}
     </div>
 }
