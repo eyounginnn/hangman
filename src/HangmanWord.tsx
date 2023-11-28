@@ -10,6 +10,7 @@ export function HangmanWord({guessedLetters, wordToGuess, reveal=false }: Hangma
         gap: ".25em",
         fontSize: "6rem", fontWeight: "bold",
         textTransform: "uppercase", fontFamily: "monospace",
+        color: "hotpink",
     }}> 
     {wordToGuess.split("").map((letter, index) => (
         <span style={{ borderBottom: ".1em solid black"}} key = {index} > 
